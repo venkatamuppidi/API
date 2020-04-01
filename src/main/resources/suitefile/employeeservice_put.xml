@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TrueClear-DisplayChannel-Service-PUT-Endpoint">
+
+<test name="Test create Prerequisite data">
+
+	<test name="Test update IO with valid data">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_001_Verify_To_Create_InsertionOrder_With_Valid_Data" />
+		</classes>
+	</test>
+	<test name="Test create IO with IO number">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_002_Verify_To_Create_InsertionOrder_With_IONumber" />
+		</classes>
+	</test>
+	<test name="Test create IO without payload">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_003_Verify_To_Create_InsertionOrder_With_Empty_Payload" />
+		</classes>
+	</test>
+	<test name="Test create IO without authorization">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_004_Verify_To_Create_InsertionOrder_Without_Authorization" />
+		</classes>
+	</test>
+	<test
+		name="Test create IO with Invalid payload">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_005_Verify_To_Create_InsertionOrder_With_Invalid_Payload" />
+		</classes>
+	</test>
+	<test name="Test create IO with agencyUUID">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_006_Verify_To_Create_InsertionOrder_Without_AgencyUUID" />
+		</classes>
+	</test>
+	<test name="Test create IO without Network number">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_007_Verify_To_Create_InsertionOrder_Without_NetworkNumber" />
+		</classes>
+	</test>
+	<test name="Test create IO without AgencyIOname">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_008_Verify_To_Create_InsertionOrder_Without_AgencyIOName" />
+		</classes>
+	</test>
+	<test name="Test create IO without CampaignName">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_009_Verify_To_Create_IO_Without_CampaignName" />
+		</classes>
+	</test>
+	<test name="Test create IO without offAubscriptionUnits">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_010_Verify_To_Create_IO_Without_OffSubscriptionUnits" />
+		</classes>
+	</test>
+	<test name="Test create IO without primeSubscriptionUnits">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_011_Verify_To_Create_IO_Without_PrimeSubscriptionUnits" />
+		</classes>
+	</test>
+	<test name="Test create IO without StandardSubscriptionUnits">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_012_Verify_To_Create_IO_Without_StandardSubscriptionUnits" />
+		</classes>
+	</test>
+	<test name="Test create IO without StartDate">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_013_Verify_To_Create_IO_Without_StartDate" />
+		</classes>
+	</test>
+	<test name="Test create IO without EndDate">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_014_Verify_To_Create_IO_Without_EndDate" />
+		</classes>
+	</test>
+	<test name="Test create IO with StartDate greaterthan EndDate">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_015_Verify_To_Create_IO_With_StartDate_Greaterthan_EndDate" />
+		</classes>
+	</test>
+	<test name="Test create IO with EndDate Sameas StartDate">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_016_Verify_To_Create_IO_With_EndDate_SameAs_StartDate" />
+		</classes>
+	</test>
+	<test name="Test create IO with EndDate greaterthan StartDate">
+		<classes>
+			<class
+				name="com.truclearglobal.api.post.testscripts.insertionorderservice.TC_017_Verify_To_Create_IO_With_EndDate_Greaterthan_StartDate" />
+		</classes>
+	</test>
+</suite>

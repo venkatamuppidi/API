@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TrueClear-DisplayChannel-GET-Endpoint">
+
+	<test name="Test get Client by client id">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_015_Get_Client_With_clientUUID" />
+		</classes>
+	</test>
+	<test name="Test get Client with authorization and client id">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_016_Get_Clients_With_Authorization_And_ClientId" />
+		</classes>
+	</test>
+	<test name="Test get Client without authorization and Client name">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_017_Get_Clients_Without_Authorization_With_ClientName" />
+		</classes>
+	</test>
+	<test name="Test get Client with Invalid id">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_018_Get_Client_With_InvalidID" />
+		</classes>
+	</test>
+	<test
+		name="Test get Client with client name">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_019_Get_Clients_With_ClientName" />
+		</classes>
+	</test>
+	<test name="Test get Client by without authorization">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_020_Get_Clients_Without_Authorization" />
+		</classes>
+	</test>
+		<test name="Test get Clients without client id">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_021_Get_Clients_Without_ClientId" />
+		</classes>
+	</test>
+		<test name="Test get Client without clientname">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_022_Get_Client_Without_ClientName" />
+		</classes>
+	</test>
+		<test name="Test get Client with not existing name">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_023_Get_Client_With_Not_Existing_Name" />
+		</classes>
+	</test>
+		<test name="Test get Client with State">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_024_Get_Clients_With_State" />
+		</classes>
+	</test>
+		<test name="Test get Client with Business type">
+		<classes>
+			<class
+				name="com.truclearglobal.api.get.testscripts.clientserviceV2.TC_025_Get_Client_With_BusinessType" />
+		</classes>
+	</test>
+</suite>

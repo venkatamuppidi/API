@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="createFalconPosts">
+
+
+	<test name="Createfalconposts_List">
+		<classes>
+			<class name="atmecs.rest.falcon.testscript.CreateFalconPosts" />
+			<class name="atmecs.rest.falcon.testscript.DeletePosts"/>
+			<class name="atmecs.rest.falcon.testscript.FalconGetList"/>
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,18 @@
+{
+	"Falconpost": 
+	{
+		"productnameKey": "productname",
+		"productnameValue": "FALCON",
+		"ComponentKey": "component",
+		"ComponentValue": "WEB",
+		"EnvironmentKey": "environment",
+		"EnvironmentValue": "QA",
+		"testphaseKey": "testphase",
+		"testphaseValue": "Smoke",
+		"testrunatkey": "testrunat",
+		"testrunatValue": "local",
+		"deviceKey": "device",
+		"deviceValue": "desktop",
+		"fileName": "file"
+	}
+}

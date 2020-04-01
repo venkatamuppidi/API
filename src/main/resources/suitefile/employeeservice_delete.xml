@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TrueClear-DisplayChannel-DELETE-Endpoint">
+
+	<test name="Test delete  Client with valid data">
+		<classes>
+			<class
+				name="com.truclearglobal.api.delete.testscripts.clientserviceV2.TC_026_Delete_Created_Client" />
+		</classes>
+	</test>	
+	<test
+		name="Test delete Client with valid id and without authorization">
+		<classes>
+			<class
+				name="com.truclearglobal.api.delete.testscripts.clientserviceV2.TC_027_Delete_Client_Without_Authorization" />
+		</classes>
+	</test>
+	<test name="Test delete Client with wrong id">
+		<classes>
+			<class
+				name="com.truclearglobal.api.delete.testscripts.clientserviceV2.TC_028_Delete_Client_With_InvalidClientId" />
+		</classes>
+	</test>
+</suite>
